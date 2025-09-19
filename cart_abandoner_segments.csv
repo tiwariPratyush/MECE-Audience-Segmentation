@@ -1,0 +1,7 @@
+segment_name,rules_applied,size,conversion_potential,profitability,lift_vs_control,strategic_fit,overall_score,valid,avg_aov,avg_engagement,avg_profitability
+Med_AOV_High_Engagement,493 <= AOV < 1512 & Engagement >= 0.902,4667,0.928,0.986,0.671,0.85,0.876,True,961.98,0.983,0.992
+High_AOV_Premium,AOV >= 1512,10933,0.852,0.991,0.77,0.95,0.875,True,3529.63,0.875,0.989
+Med_AOV_Med_Eng_High_Prof,493 <= AOV < 1512 & 0.605 <= Engagement < 0.902 & Profitability >= 1.000,4181,0.778,0.984,0.557,0.5,0.736,True,921.95,0.766,1.0
+Low_AOV_High_Engagement,AOV < 493 & Engagement >= 0.902,1623,0.927,0.844,0.535,0.75,0.732,True,325.98,0.977,0.974
+Other_Bucket,All other users (ELSE condition),8189,0.549,0.707,0.341,0.5,0.566,True,408.57,0.442,0.782
+Recent_Customers,Last order within 30 days & Other conditions,14139,0.548,0.708,0.238,0.7,0.556,True,412.31,0.441,0.782
