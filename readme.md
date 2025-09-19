@@ -1,9 +1,9 @@
-# 🎯 MECE Cart Abandoner Segmentation System
+#  MECE Cart Abandoner Segmentation System
 
 ## Overview
 This project implements a **Mutually Exclusive, Collectively Exhaustive (MECE)** audience segmentation system for cart abandoner retention strategies. The system partitions users who abandoned carts in the last 7 days into actionable marketing segments while ensuring no overlaps and complete coverage.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.7+
@@ -20,7 +20,7 @@ pip install pandas numpy
 python mece_segmentation.py
 ```
 
-## 📊 System Architecture
+##  System Architecture
 
 ### 1. Universe Definition
 - **Target Audience**: Users who abandoned carts in the last 7 days
@@ -80,7 +80,7 @@ Each segment receives scores across 5 dimensions:
    - Optimal size preference (around 5,000 users)
    - Penalizes very large or very small segments
 
-## 🎯 Segmentation Results
+##  Segmentation Results
 
 ### Typical Output Segments
 
@@ -120,7 +120,7 @@ def _validate_mece(self, df, segments):
 - **JSON Format**: API integration ready
 - **Summary Reports**: Executive dashboards
 
-## 📈 Business Impact
+##  Business Impact
 
 ### Immediate Benefits
 - **Precision Targeting**: 5 distinct audience segments vs. broadcast
@@ -132,7 +132,7 @@ def _validate_mece(self, df, segments):
 - **Size Compliance**: All segments meet minimum thresholds
 - **Score Differentiation**: Clear ranking for resource allocation
 
-## 🔧 Configuration Options
+##  Configuration Options
 
 ```python
 # Customize thresholds
@@ -151,7 +151,7 @@ scoring_weights = {
 }
 ```
 
-## ⚠️ Limitations & Future Improvements
+##  Limitations & Future Improvements
 
 ### Current Limitations
 1. **Static Thresholds**: Percentile-based cuts may not reflect business rules
@@ -166,7 +166,7 @@ scoring_weights = {
 4. **Advanced Scoring**: Propensity models, CLV predictions
 5. **Seasonal Adjustments**: Time-based segment modifications
 
-## 📋 File Structure
+##  File Structure
 ```
 mece-segmentation/
 ├── mece_segmentation.py          # Main implementation
@@ -176,7 +176,7 @@ mece-segmentation/
 └── requirements.txt              # Dependencies
 ```
 
-## 🤝 Usage Examples
+##  Usage Examples
 
 ### Basic Usage
 ```python
@@ -208,10 +208,9 @@ for segment in segment_list:
         send_to_marketing_platform(segment)
 ```
 
-## 📞 Support
+##  Support
 
 For questions about implementation, customization, or integration, please refer to the inline documentation or create an issue in the repository.
 
 ---
 
-**Built with Python | Designed for Growth Marketing | Validated for Production**
